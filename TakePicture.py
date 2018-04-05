@@ -10,3 +10,4 @@ if not os.path.exists('flip'):
 camera.vflip = True
 
 camera.capture('flip/example2.jpg')
+print('done')
