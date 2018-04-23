@@ -1,3 +1,5 @@
+'''HC-SR04'''
+
 import RPi.GPIO as GPIO
 import time
 
