@@ -11,6 +11,8 @@ for pin in ControlPin:
 	GPIO.setup(pin,GPIO.OUT)
 	GPIO.output(pin,0)
 
+# clockwise
+
 # seq = [	[1,0,0,0],
 # 		[1,1,0,0],
 # 		[0,1,0,0],
@@ -20,6 +22,7 @@ for pin in ControlPin:
 # 		[0,0,0,1],
 # 		[1,0,0,1]	]
 
+# counter-clockwise
 seq = [	[0,0,0,1],
 		[0,0,1,1],
 		[0,0,1,0],
